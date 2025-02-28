@@ -1,0 +1,203 @@
+/* Basic Reset */
+
+* {
+
+    margin: 0;
+  
+    padding: 0;
+  
+   
+  
+  }
+  
+  
+  
+  body {
+  
+    font-family: Arial, sans-serif;
+  
+    background-color: #f4f4f9;
+  
+    color: #333;
+  
+    line-height: 1.6;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    flex-direction: column; /* Align content vertically */
+  
+  }
+  
+  
+  
+  /* Main container holding all the cards */
+  
+  .main-container {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 20px; /* Space between cards */
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    width: 100%;
+  
+    max-width: 900px; /* Limits the width */
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  /* Card Design */
+  
+  .card {
+  
+    background-color: white;
+  
+    border: 1px solid #ddd;
+  
+    border-radius: 12px; /* Rounded corners */
+  
+    padding: 20px;
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  
+    width: 80%;
+  
+    max-width: 800px; /* Limits the card width */
+  
+    transition: transform 0.3s ease; /* Smooth scale transition on hover */
+  
+  }
+  
+  
+  
+  .card:hover {
+  
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+  
+  }
+  
+  
+  
+  /* Profile Image Styling */
+  
+  .profile-img {
+  
+    width: 150px;
+  
+    height: 150px;
+  
+    border-radius: 50%; /* Makes the image circular */
+  
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  /* LinkedIn Link Styling */
+  
+  .linkedin-link {
+  
+    display: inline-block;
+  
+    margin-top: 20px;
+  
+    text-decoration: none;
+  
+    color: #0077b5;
+  
+    font-weight: bold;
+  
+  }
+  
+  
+  
+  .linkedin-link:hover {
+  
+    color: #005582;
+  
+  }
+  
+  
+  
+  /* Social Links List Styling */
+  
+  .social-links {
+  
+    list-style: none;
+  
+    padding: 0;
+  
+  }
+  
+  
+  
+  .social-links li {
+  
+    font-size: 1.2em;
+  
+    margin: 10px 0;
+  
+  }
+  
+  
+  
+  .social-links a {
+  
+    color: #0077b5;
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  .social-links a:hover {
+  
+    color: #005582;
+  
+  }
+  
+  
+  
+  h1, h2 {
+  
+    color: #333;
+  
+  }
+  
+  
+  
+  h2 {
+  
+    font-size: 2em;
+  
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  p {
+  
+    font-size: 1.2em;
+  
+    color: #555;
+  
+    margin-top: 10px;
+  
+  }
